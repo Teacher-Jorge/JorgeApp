@@ -92,7 +92,7 @@ body {
     width: 400px;
     position: relative;
     top: 630px;
-    border: 1px solid skyblue;
+    background-color: rgb(224, 240, 255);
     border-radius: 10px;
 }
 
@@ -100,6 +100,21 @@ body {
     display: flex;
     margin-bottom: 5px;
 }
+
+.inputs {
+    width: 35px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(156, 0, 196);
+    border-style: none;
+    border-bottom: 1px solid rgb(136, 221, 255);
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
 
 .pages-title {
     font-size: 25px;
@@ -182,19 +197,9 @@ body {
 .numbers {
     color: rgb(255, 94, 0);
     margin-right: 10px;
+    margin-left: 10px;
 }
 
-.inputs {
-    width: 40px;
-    height: 25px;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 20px;
-    text-align: center;
-    color: rgb(156, 0, 196);
-    border-style: none;
-    border-bottom: 1px solid skyblue;
-}
 
 
 

@@ -21,7 +21,6 @@ audio.pause()
 input1.addEventListener('keyup', (e) => {
     if (input1.value === "are") {
         input1.style.color = 'green'
-        translate.innerHTML = "Como está você?"
         document.getElementById('input2').focus()
         setTimeout(() => {
         translate.style.opacity = '1'
@@ -35,7 +34,6 @@ input1.addEventListener('keyup', (e) => {
 input2.addEventListener('keyup', (e) => {
     if (input2.value === "am") {
         input2.style.color = 'green'
-        translate.innerHTML = "Como está você?"
         document.getElementById('input3').focus()
         setTimeout(() => {
         translate.style.opacity = '1'
@@ -49,7 +47,6 @@ input2.addEventListener('keyup', (e) => {
 input3.addEventListener('keyup', (e) => {
     if (input3.value === "Is") {
         input3.style.color = 'green'
-        translate.innerHTML = "Como está você?"
         document.getElementById('input4').focus()
         setTimeout(() => {
         translate.style.opacity = '1'
