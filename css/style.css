@@ -24,6 +24,18 @@ body {
    font-size: 18px;
 }
 
+@media (max-width: 500px) {
+    .links-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 400px;
+   gap: 2px;
+   font-size: 16px;
+}
+}
+
 .items {
    display: flex;
    justify-content: center;
@@ -47,38 +59,53 @@ body {
     }
 }
 
-@media (max-width: 500px) {
-    .links-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   width: 400px;
-   gap: 2px;
-   font-size: 16px;
-}
-}
-
 .page-container {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    height: 630px;
+    width: 480px;
+    height: 400px;
+    background-color: white;
     flex-direction: column;
     align-items: center;
     font-family: 'poppins' sans-serif;
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: white;
+}
+
+.images {
+    width: 480px;
+}
+
+@media (max-width: 600px) {
+    .images {
+        width: 380px;
+    }
 }
 
 .conversation-container {
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
     padding: 2px;
-    box-shadow: 1px 1px 3px black;
+    width: 480px;
+    height: 320px;
+    font-size: 18px;
+    padding: 5px;
+    position: fixed;
+    top: 390px;
+    z-index: 1;
+    background-color: aliceblue;
+}
+
+@media (max-width: 600px) {
+    .conversation-container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 290px;
+    font-size: 15px;
+    top: 325px;
+}
 }
 
 .lines {
@@ -89,11 +116,24 @@ body {
 .exercise-container {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    position: relative;
-    top: 630px;
+    width: 480px;
     background-color: rgb(224, 240, 255);
-    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 710px;
+}
+
+@media (max-width: 600px) {
+    .exercise-container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    top: 615px;
+    background-color: rgb(224, 240, 255);
+    font-size: 18px;
+    height: 300px;
+}
+
 }
 
 .exercise-lines {
@@ -181,13 +221,6 @@ body {
     &:active {
         box-shadow: none;
     }
-}
-
-.images {
-    width: 395px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 2px black;
-    margin-bottom: 5px;
 }
 
 .names {
