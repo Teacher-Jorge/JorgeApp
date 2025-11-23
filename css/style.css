@@ -63,10 +63,42 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
-    height: 950px;
+    height: 630px;
     flex-direction: column;
     align-items: center;
     font-family: 'poppins' sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.conversation-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.lines {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    top: 630px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+
+.exercise-lines {
+    display: flex;
+    margin-bottom: 5px;
 }
 
 .pages-title {
@@ -90,7 +122,7 @@ body {
     color: white;
     position: relative;
     left: -170px;
-    top: 200px;
+    top: 1000px;
 
     &:active {
         box-shadow: none;
@@ -105,7 +137,16 @@ body {
 }
 
 .instructions {
-    margin-bottom: 15px;
+    color: rgb(0, 65, 117);
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.words {
+    color: rgb(156, 0, 196);
+    font-weight: 600;
+    font-style: italic;
 }
 
 .btn-container {
@@ -118,7 +159,7 @@ body {
     padding: 2px;
     border-style: none;
     background-color: rgb(170, 215, 255);
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 3px black;
     border-radius: 5px;
     margin-bottom: 10px;
     
@@ -128,24 +169,31 @@ body {
 }
 
 .images {
-    width: 400px;
+    width: 395px;
     border-radius: 10px;
     box-shadow: 1px 1px 2px black;
-}
-
-.conversation-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.lines {
-    display: grid;
-    grid-template-columns: 15% 85%;
+    margin-bottom: 5px;
 }
 
 .names {
     color: rgb(0, 21, 139);
+}
 
+.numbers {
+    color: rgb(255, 94, 0);
+    margin-right: 10px;
+}
+
+.inputs {
+    width: 40px;
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(156, 0, 196);
+    border-style: none;
+    border-bottom: 1px solid skyblue;
 }
 
 
