@@ -73,6 +73,12 @@ body {
     z-index: 1;
 }
 
+@media (max-width: 600px) {
+    .page-container {
+        position: relative;
+    }
+}
+
 .images {
     width: 480px;
 }
@@ -88,7 +94,7 @@ body {
     flex-direction: column;
     padding: 2px;
     width: 480px;
-    height: 320px;
+    height: 310px;
     font-size: 18px;
     padding: 5px;
     position: fixed;
@@ -104,7 +110,8 @@ body {
     width: 360px;
     height: 290px;
     font-size: 15px;
-    top: 310px;
+    top: -90px;
+    position: relative;
 }
 }
 
@@ -117,10 +124,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 480px;
+    height: 350px;
     background-color: rgb(224, 240, 255);
     font-size: 20px;
     position: relative;
-    top: 710px;
+    top: 700px;
 }
 
 @media (max-width: 600px) {
@@ -128,10 +136,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 360px;
-    top: 70px;
+    top: -90px;
     background-color: rgb(224, 240, 255);
     font-size: 18px;
-    height: 300px;
+    height: 330px;
     z-index: 1;
 }
 
