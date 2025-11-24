@@ -79,7 +79,7 @@ body {
 
 @media (max-width: 600px) {
     .images {
-        width: 380px;
+        width: 360px;
     }
 }
 
@@ -101,10 +101,10 @@ body {
     .conversation-container {
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 360px;
     height: 290px;
     font-size: 15px;
-    top: 325px;
+    top: 310px;
 }
 }
 
@@ -127,11 +127,12 @@ body {
     .exercise-container {
     display: flex;
     flex-direction: column;
-    width: 380px;
-    top: 615px;
+    width: 360px;
+    top: 70px;
     background-color: rgb(224, 240, 255);
     font-size: 18px;
     height: 300px;
+    z-index: 1;
 }
 
 }
