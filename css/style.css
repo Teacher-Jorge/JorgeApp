@@ -185,8 +185,8 @@ body {
     border-radius: 5px;
     color: white;
     position: relative;
-    left: -170px;
-    top: 1000px;
+    left: -100px;
+    top: 0px;
 
     &:active {
         box-shadow: none;
