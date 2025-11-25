@@ -182,11 +182,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
     color: white;
-    position: relative;
-    left: -100px;
-    top: 0px;
+    position: absolute;
+    top: 70px;
+    left: 420px;
 
     &:active {
         box-shadow: none;
@@ -197,6 +196,12 @@ body {
         cursor: pointer;
         font-weight: 600;
         box-shadow: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .back {
+        left: 360px;
     }
 }
 
