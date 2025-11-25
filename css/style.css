@@ -85,7 +85,7 @@ body {
 
 @media (max-width: 600px) {
     .images {
-        width: 360px;
+        width: 340px;
     }
 }
 
@@ -107,10 +107,10 @@ body {
     .conversation-container {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 340px;
     height: 290px;
     font-size: 15px;
-    top: -90px;
+    top: -100px;
     position: relative;
 }
 }
@@ -135,11 +135,11 @@ body {
     .exercise-container {
     display: flex;
     flex-direction: column;
-    width: 360px;
-    top: -90px;
+    width: 340px;
+    top: -100px;
     background-color: rgb(224, 240, 255);
     font-size: 18px;
-    height: 330px;
+    height: 350px;
     z-index: 1;
 }
 
@@ -177,15 +177,15 @@ body {
 .back {
     text-decoration: none;
     background-color: rgb(96, 0, 151);
-    width: 60px;
-    height: 30px;
+    width: 50px;
+    height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     position: absolute;
     top: 70px;
-    left: 420px;
+    left: 430px;
 
     &:active {
         box-shadow: none;
